@@ -1,12 +1,21 @@
 #section {
     margin-top:80px;
-    width: 1500px;
+    overflow: hidden;
 }
 
 #flex-categories {
-    width:2000px;
-    overflow-x:scroll;
+    width: 1200px;
+    height: 400px;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 .card {
     width: 300px;
+    float: none;
+    height: 80%;
+    margin: 0 0.25%;
+    display: inline-block;
 }
