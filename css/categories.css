@@ -1,0 +1,12 @@
+#section {
+    margin-top:80px;
+    width: 1500px;
+}
+
+#flex-categories {
+    width:2000px;
+    overflow-x:scroll;
+}
+.card {
+    width: 300px;
+}
